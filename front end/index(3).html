@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVJCE</title>
+    <style>
+        .formcontainer{
+            background-color:grey;
+        }
+        form{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap:2px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;color:red;font-family: 'Times New Roman', Times, serif;">About SDC</h1>
+    <marquee direction="left" style="background-color:yellow; color:red;">Coding Hackathons on 15/10/24 participate there and deep dive into the world of the web development,Ai,Aiml,App development,Game development,Web designing.</marquee>
+    <h2 style="text-align: center;color:crimson;">Know More About Events</h2>
+    <table border="1" width="100%">
+        <th>Serial No</th>
+        <th>Lists of Events</th>
+        <th>date</th>
+        <th>Resource person</th>
+        <tr>
+            <td>1</td>
+            <td> Coding Competitions (Hackathons)</td>
+            <td>12/2/24</td>
+            <td>Ragavendra</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td> Workshops</td>
+            <td>13/5/24</td>
+            <td>Akshay</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Code Reviews and Pair Programming</td>
+            <td>14/5/24</td>
+            <td>Arun</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Project Showcases</td>
+            <td>15/5/24</td>
+            <td>Pavan</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Game Development or App Development Jams</td>
+            <td>16/5/24</td>
+            <td>Aditya</td>
+        </tr>
+
+        
+    </table>
+    <div class="formcontainer">
+    <h2 style="text-align: center;">Fill out the query form</h2>
+    <form action="mailto:sumams758@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <br>
+        <label for="Usn">USN:</label>
+        <input type="text" id="Usn" name="USN" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="USN" required>
+        <br>
+        <br>
+        <label>Select your branch</label>
+         <select name="branch">
+            <option value="CSE">CSE</option>
+            <option value="ISE">ISE</option>
+            <option value="Civil">Civil</option>
+            <option value="Mechanical">Mechanical</option>
+            <option value="Electrical">Electrical</option>
+         </select><br>
+         <br>
+         <label style="display: flex; align-items: center;">Text any queries here</label><textarea name="query" id="query"></textarea>
+         <br>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+    </form>
+    </div>
+</body>
+</html>
